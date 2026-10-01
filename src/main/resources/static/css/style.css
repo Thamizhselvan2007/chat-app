@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+body { background: #e9edef; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+.card { background: #fff; width: 360px; max-width: 92vw; padding: 28px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.15); }
+.card h1 { color: #075e54; text-align: center; margin-bottom: 18px; }
+.tabs { display: flex; margin-bottom: 18px; border-bottom: 2px solid #ddd; }
+.tabs button { flex: 1; padding: 10px; border: none; background: none; font-size: 16px; cursor: pointer; color: #666; }
+.tabs button.active { color: #075e54; border-bottom: 3px solid #075e54; font-weight: bold; }
+.card input { width: 100%; padding: 11px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 15px; }
+.card .submit { width: 100%; padding: 12px; background: #075e54; color: #fff; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; }
+.card .submit:hover { background: #054c44; }
+#msg { margin-top: 12px; text-align: center; font-size: 14px; min-height: 18px; }
+#msg.error { color: #c62828; }
+#msg.ok { color: #2e7d32; }
+.hidden { display: none; }

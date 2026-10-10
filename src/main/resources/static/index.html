@@ -15,7 +15,7 @@
     </div>
 
     <form id="loginForm">
-      <input id="loginUser" placeholder="Username" required>
+      <input id="loginUser" placeholder="Username or email" required>
       <input id="loginPass" type="password" placeholder="Password" required>
       <button class="submit" type="submit">Login</button>
     </form>
@@ -25,6 +25,11 @@
       <input id="regEmail" type="email" placeholder="Email" required>
       <input id="regPass" type="password" placeholder="Password (6+ characters)" required>
       <button class="submit" type="submit">Create account</button>
+    </form>
+
+    <form id="verifyForm" class="hidden">
+      <input id="verCode" placeholder="6-digit code from your email" maxlength="6" required>
+      <button class="submit" type="submit">Verify and create account</button>
     </form>
 
     <p id="msg"></p>
